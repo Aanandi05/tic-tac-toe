@@ -1,0 +1,85 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-color:rgb(255, 192, 217);
+  text-align: center;
+  color:beige
+}
+
+.container{
+  height: 70vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game{
+  height:60vmin;
+  width:60vmin;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap:1.5vmin;
+}
+
+.box{
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border:none;
+  box-shadow: 0 0 1rem  rgb(231, 88, 181);
+  font-size: 8vmin;
+  color:beige;
+  background-color:rgb(239, 169, 207);
+  
+}
+
+.reset{
+  padding:1rem;
+  font-size: 1.25rem;
+  border-color: rgb(231, 129, 195);
+  border-radius: 10.5rem;
+  box-shadow:0 0 1rem rgb(231, 129, 195) ;
+  background-color: rgb(239, 169, 207);
+  color:beige;
+}
+
+.new{
+  padding:0.5rem;
+  font-size: 1.25rem;
+  border-color: rgb(231, 129, 195);
+  border-radius: 10.5rem;
+  box-shadow:0 0 1rem rgb(231, 129, 195) ;
+  background-color: rgb(239, 169, 207);
+  color:beige;
+}
+
+#cmsg{
+  color:antiquewhite;
+  font-size:8vmin;;
+} 
+
+.msg{
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.hide{
+  display:none;
+}
+
+.oturn{
+  color:palevioletred;
+}
+
+.xturn{
+  color:rgb(233, 91, 115)
+}
